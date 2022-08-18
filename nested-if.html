@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested if</title>
+</head>
+<body>
+    <script type = "text/javaScript">
+ 
+        // JavaScript program to illustrate nested-if statement
+        var i = 10;
+         
+        if (i == 10) {
+         
+          // First if statement
+          if (i > 15){
+            document.write("i is smaller than 15");
+          }
+         
+          // Nested - if statement
+          // Will only be executed if statement above
+          // it is true
+          if (i > 12){
+            document.write("i is smaller than 12 too");
+          }
+          else{
+            document.write("i is greater than 15");
+          }
+        }
+        else{
+            document.write("Hello");
+
+        }
+        </script>
+</body>
+</html>
