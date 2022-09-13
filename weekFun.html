@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week days by calling function</title>
+</head>
+<body>
+
+    <script>
+        function monday(){
+            document.write("today is monday");
+        }
+        function tuesday(){
+            document.write("today is tuesday");
+        }
+        function wednesday(){
+            document.write("today is wednesday");
+        }
+        function thursday(){
+            document.write("today is thursday");
+        }
+        function friday(){
+            document.write("today is friday");
+        }
+        function saturday(){
+            document.write("today is saturday");
+        }
+        function sunday(){
+            document.write("today is sunday");
+        }
+
+        function other(){
+            document.write("Invalid choice of number, Please choose number between 1 to 7");
+        }
+
+        var day = parseInt(prompt("enter any number"));
+
+        if(day == 1){
+            monday();
+        }
+        else if(day == 2){
+            tuesday();
+        }
+        else if(day == 3){
+            wednesday();
+        }
+        else if(day == 4){
+            thursday();
+        }
+        else if(day == 5){
+            friday();
+        }
+        else if(day == 6){
+            saturday();
+        } 
+        else if(day == 7){
+            sunday();
+        }
+        else{
+            other();
+        }
+        
+    </script>
+    
+</body>
+</html>
